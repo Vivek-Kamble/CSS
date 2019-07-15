@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		*
+		{
+			margin:0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+
+		.header
+		{
+			height: 60px;
+			width: 100%;
+			background-color: black;
+		}
+		.nav
+		{
+			height: 60px;
+			width: 40%;
+			/*background: gray;*/
+			display:inline-block;
+			float: right;
+		}
+
+		.nav li
+		{
+			list-style-type: none;
+
+		}
+
+		.nav li:hover
+		{
+			color: black;
+			border: 1px solid black;
+			cursor: pointer;
+			background-color: white;
+		}
+
+		.nav ul li
+		{
+			/*display: inline-block;*/
+			float: left;
+			/*list-style-type: none;*/
+			height: 60px;
+			width: 25%;
+			text-align: center;
+			line-height: 60px;
+			font-family: calibri;
+			background-color:black;
+			color: white;
+
+		}
+
+		.nav ul li ul li
+		{
+			width: 100%;
+			height: 60px;
+			
+			background-color: black;
+
+		}
+
+		.nav ul li ul li ul li
+		{
+			height: 60px;
+			width: 100%;
+			
+			cursor: pointer;
+		}
+
+		.abtc
+		{
+			display: none;
+		}
+
+		.abtp:hover > .abtc
+		{
+			display: block;
+		}
+
+		.abtcc li
+		{
+			width: 100%;
+
+		}
+
+		.abtcc
+		{
+
+			width: 100%;
+			margin-left: 100%;
+			margin-top: -60px;
+			display: none;
+		}
+
+		.abtcp:hover > .abtcc
+		{
+			display: block;
+
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<div class="nav">
+				<ul type="none">
+					<li>Home</li>
+					<li class="abtp">About
+						<ul class="abtc">
+							<li>About 1</li>
+							<li class="abtcp">About 2
+								<ul class="abtcc">
+									<li>About 21</li>
+									<li>About 22</li>
+									<li>About 23</li>
+								</ul>
+							</li>
+							<li>About 3</li>
+						</ul>
+					</li>
+					<li class="abtp">Contact
+						<ul class="abtc">
+							<li>About 1</li>
+							<li>About 2</li>
+							<li>About 3</li>
+						</ul>
+					</li>
+					<li>Feedback</li>
+				</ul>
+			</div>
+		
+	</div>
+
+</body>
+</html>

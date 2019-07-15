@@ -1,0 +1,345 @@
+*
+{
+	margin: 0px;
+}
+
+
+/*reusable*/
+
+
+.title
+	{
+		height: 50px;
+		width: 100%;
+		/*background-color: gray;*/
+		text-align: center;
+		line-height: 50px;
+		font-family: calibri;
+		font-size: 30px;
+		/*font-weight: bold;*/
+	}
+
+
+
+
+
+/*header*/
+
+
+	.header
+	{
+		height: 70px;
+		width: 100%;
+		background-color: white;
+	}
+
+
+	.logo
+	{
+		height: 70px;
+		width: 20%;
+		/*background-color: white;*/
+		margin-left: 10%;
+
+	}
+
+	.logo_img
+	{
+		margin-left: 20%;
+		margin-top: 8px;
+
+	}
+	
+
+
+/*banner1*/
+
+
+	.banner
+	{
+		height: 500px;
+		width: 100%;
+		background-color: gray;
+		overflow: hidden;
+	}
+
+
+/*services*/
+
+
+	.services_container
+	{
+		height: auto;
+		width: 100%;
+		padding-top:50px;
+		padding-bottom: 70px;
+		/*background-color: gray; */
+	}
+
+	.services
+	{
+		height: auto;
+		width: 80%;
+		/*background-color: red;*/
+		margin-left: 10%;
+	}
+
+	
+	.mainservices
+	{
+		height: auto;
+		width: 100%;
+		/*background-color: lightgray;*/
+		padding-top: 40px;
+	}
+
+	.service
+	{
+		height: 200px;
+		width: 33%;
+		/*background-color: red;*/
+		display: inline-block;
+	}
+
+	.icon
+	{
+		height: 150px;
+		width: 50%;
+		/*background-color: lightgray;*/
+		margin-left: 25%;
+	}
+
+	.icon_title
+	{
+		height: 50px;
+		width: 100%;
+		/*background-color: gray;*/
+		text-align: center;
+		line-height: 50px;
+		font-family: calibri;
+		font-size: 20px;
+	}	
+
+
+	.icon img
+	{
+		width: 60%;
+		margin-left: 20%;
+	}
+
+
+
+/*content*/
+
+
+	.features_container
+	{
+		width: 100%;
+		height: auto;
+		padding-top: 50px;
+		padding-bottom:70px;
+		/*background-color: gray; */
+	}
+
+
+	.mainfeatures
+	{
+		height: auto;
+		width: 80%;
+		margin-left: 10%;
+		/*background-color: lightgray;*/
+	}
+
+	.features
+	{
+		height: auto;
+		width: 100%;
+		/*background-color: red;*/
+		padding-top: 40px;
+	}
+
+	.feature
+	{
+		height: 500px;
+		width: 30%;
+		/*background-color: red;*/
+		display: inline-block;
+		margin-left: 2%;
+	}
+
+	.feature_img
+	{
+		height:250px;
+		width: 100%;
+		/*background-color: yellow;*/
+		overflow: hidden;
+	}
+
+
+	.feature_img img
+	{
+		width: 100%;
+		margin-top: -40px;
+
+	}
+
+
+	.feature_text
+	{
+		height: 150px;
+		width: 100%;
+		/*background-color: yellow;*/
+		font-family: calibri;
+		font-size: 17px;
+		text-align: justify;
+		margin-top: 20px;
+	}
+
+
+	.feature_button
+	{
+		height: 80px;
+		width: 100%;
+		/*background-color: green;*/
+		text-align: center;
+		line-height: 80px;
+	}
+
+	.feature_button button
+	{
+		padding: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
+		background-color: #1b76ca;
+		color: white;
+		border:none;
+		border-radius: 5px;
+
+	}
+
+
+
+
+
+
+/*show*/
+
+.show
+{
+	height: 400px;
+	width: 100%;
+	background-color: gray;
+	overflow: hidden;
+}
+
+.show img
+{
+	width: 100%;
+}
+
+
+
+/*form*/
+
+
+	.form
+	{
+		height: auto;
+		width: 100%;
+		/*background-color: gray;*/
+		padding-top: 50px;
+		padding-bottom: 70px;
+	}
+
+
+	.contactform
+	{
+		height: auto;
+		width: 50%;
+		/*background-color: lightgray;*/
+		margin-left: 25%;
+	}
+
+	.actualform
+	{
+		width: 100%;
+		height:auto;
+		/*background-color: red;*/
+
+	}
+
+	.form-group
+	{
+		height: auto;
+		width: 100%;
+		/*background-color: gray;*/
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: center;
+
+	}
+
+	.form-group input
+	{
+		height: 40px;
+		width: 80%;
+		border-radius: 2px;
+		text-indent: 20px;
+		border:1px solid lightgray;
+	}
+
+	.form-group button
+	{
+		padding: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
+		background-color: #1b76ca;
+		color: white;
+		border:none;
+		border-radius: 5px;
+	}
+
+/*footer*/
+
+
+	.footer
+	{
+		height: 200px;
+		width: 100%;
+		background-color: #202020;
+	}
+
+
+	.mainfoot
+	{
+		height: 170px;
+		width: 100%;
+		/*background-color: red;*/
+	}
+
+	.social
+	{
+		height: 50px;
+		width: 200px;
+		margin-left: 10%;
+		/*background-color: red;*/
+		margin-top: 50px;
+		display: inline-block;
+	}
+
+	.social img
+	{
+		margin-left: 10px;
+	}
+
+	.footfoot
+	{
+		height: 30px;
+		width: 100%;
+		text-align: center;
+		line-height: 30px;
+		font-family: calibri;
+		color: white;
+		background-color: #000000;
+
+	}

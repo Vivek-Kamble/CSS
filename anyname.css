@@ -1,0 +1,125 @@
+body
+{
+	margin: 0px;
+}
+
+
+.wrapper
+{
+	height: auto;
+	width: 100%;
+	/*background-color: red;*/
+}
+
+.header
+{
+	height: 100px;
+	width: 100%;
+	background-color: #2d2b2b;
+}
+
+.logo
+{
+	height: 100px;
+	width: 20%;
+	/*background-color: yellow;*/
+	margin-left: 10%;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	font-family: "segoe ui";
+	line-height: 100px;
+
+}
+
+
+.banner
+{
+	height: 500px;
+	width: 100%;
+	background-color: lightgray;
+
+}
+
+
+.banner_child
+{
+	height: 500px;
+	width: 100%;
+	background-color: gray;
+	/*margin-left: 10%;*/
+	/*margin-top: 50px;*/
+	display: inline-block;
+	overflow: hidden;
+}
+
+
+.contents	
+{
+	height: 500px;
+	width: 100%;
+	/*background-color: gray;*/
+}
+
+
+.content_child
+{
+	height: 300px;
+	width: 80%;
+	/*background-color: lightgray;*/
+	margin-left: 10%;
+	margin-top: 100px;
+	display: inline-block;	
+}
+
+
+.content
+{
+	height: 300px;
+	width: 45%;
+	/*background-color: red;*/
+	display: inline-block;
+	vertical-align: top;
+	font-family: calibri;
+	font-size: 18px;
+	margin-left: 4.5%;
+}
+
+
+.footer
+{
+	height: 500px;
+	width: 100%;
+	background-color: #faf8f8;
+}
+
+
+.footer_child
+{
+	height: 300px;
+	width: 80%;
+	/*background-color: gray;*/
+	margin-left: 10%;
+	margin-top: 100px;
+	display: inline-block;		
+}
+
+.hm
+{
+	margin-left: -20px;
+	/*margin-top: 40px;*/
+}
+
+.foo
+{
+	height: 300px;
+	width: 30%;
+	overflow: hidden;
+	/*background-color: red;*/
+	display: inline-block;
+	vertical-align: top;
+	font-family: calibri;
+	font-size: 18px;
+	text-align: justify;
+	margin-left: 2%;
+}

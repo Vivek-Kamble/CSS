@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+	<style type="text/css">
+		.box
+		{
+			height: 200px;
+			width: 200px;
+			background-color: lightgrey;
+		}
+		.box::after
+		{
+			content: "";
+			height: 50px;
+			width: 50px;
+			display: inline-block;
+			margin-top: 173px;
+			margin-left: 0px;
+			background-color: grey;
+			transform: rotate(45deg);
+			overflow: hidden;		
+		}
+		.innerbox
+		{
+			height: 71px;
+			width: 71px;
+			margin-left: 0px;
+			margin-top: -80px;
+			background-color: red;
+			display: inline-block;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="innerbox"></div>
+	</div>
+</body>
+</html>

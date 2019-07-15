@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>positions</title>
+	<style type="text/css">
+
+		*
+		{
+			margin:0px;
+			padding: 0px;
+		}
+		
+		.header1
+		{
+			height: 30px;
+			width: 100%;
+			background-color: orange;
+		}
+
+		.header2
+		{
+			height: 70px;
+			width: 100%;
+			background-color: lightgray;
+			position: sticky;
+			top: 0;
+		}
+
+		.banner
+		{
+			height: 560px;
+			width: 100%;
+			background-color: black;
+			overflow: hidden;
+			position: sticky;
+			z-index: -1;
+			top: 70px;
+
+		}
+
+
+		.con
+		{
+			height: 560px;
+			width: 100%;
+			background-color: gray;
+			text-align:center;
+			font-size: 200px;
+			line-height: 560px;
+			font-family: calibri;
+
+		}
+
+		.con2
+		{
+			height: 560px;
+			width: 100%;
+			background-color: transparent;
+		}
+
+		.c
+		{
+			margin-top: 560px;
+		}
+
+
+	</style>
+</head>
+<body>
+
+		<div class="header1"></div>
+		<div class="header2"></div>
+
+		<div class="banner">
+			<img src="nature.jpg" width="120%" id="img">
+		</div>
+
+
+		<div class="con c">
+			human
+		</div>
+
+		<div class="con2"></div>
+
+		<div class="con"></div>
+
+
+		<script type="text/javascript">
+			
+
+				window.onscroll=function()
+				{
+					console.log(window.scrollY);
+					if(window.scrollY>1150)
+					{
+						document.getElementById('img').src="disaster.jpg";
+					}
+					else
+					{
+						document.getElementById('img').src="nature.jpg";
+					}	
+				}
+
+
+		</script>
+
+		
+
+
+</body>
+</html>

@@ -1,0 +1,315 @@
+*{
+	margin: 0%;
+	padding: 0px;
+	font-family: pt;
+}
+.header p
+{
+	display: inline-block;
+	font-size:17px;
+	color:white;
+	line-height:60px;
+	vertical-align: top;
+
+}
+.comma
+{
+	display: inline-block;
+	line-height: 60px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+.header p:hover
+{
+	color: #ad9463;
+	transition: 0.25s;
+}
+@font-face
+{
+	src:url('PTSans/PTRegular.ttf');
+	font-family:"pt";
+}
+.header
+{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	vertical-align: top;
+}
+.header_abt1
+{
+	width:23%;
+	height: 60px;
+	margin-left:1%;
+	/*background-color: red;*/
+	vertical-align: top;
+	color: white;line-height: 60px;
+	display: inline-block;
+}
+.header_abt2
+{
+	width:32%;
+	height: 60px;
+	/*background-color: red;*/
+	vertical-align: top;
+	display: inline-block;
+}
+.header_abt3
+{
+	width: 13%;
+	height: 60px;
+	/*background-color: red;*/
+	display: inline-block;
+}
+.header_social
+{
+	width: 22%;
+	height: 60px;
+	/*background-color: red;*/
+	float: right;
+}
+.header_social ul li
+{display: inline-block;
+	width: 18%;
+	margin-top: 17px;
+	margin-bottom: 17px;
+	margin-left: 2px;
+	cursor: pointer;
+
+}
+.header_social ul li:hover
+{
+	transform: scale(1.1);
+	transition: 0.25s;
+}
+.header2
+{
+	height: 80px;
+	width: 100%;
+	/*background-color: red;*/
+	vertical-align:top;
+	overflow: hidden;
+}
+.header2logo
+{
+	width: 15%;
+	height: 80px;
+	display: inline-block;
+	/*background-color: blue;*/
+}
+.header2nav
+{
+	width:60%;
+	height: 80px;
+	margin-left:5%;
+	display: inline-block;
+	vertical-align: top;
+	/*background-color: green;*/
+
+}
+.header2 button
+{
+	height: 50px;
+	width: 200px;
+	background-color: #ad9463;
+	border: none;
+	border-radius: 30px;
+	font-size: 20px;
+	color: white;
+	vertical-align: top;
+	margin-left:1%;
+	margin-top: 15px;
+
+}
+.header2 button:hover
+{
+	background-color: #917a4c;
+}
+.header2 .header2nav ul li
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width:12%;
+	line-height:60px;
+	font-size: 20px;
+}
+.header2 .header2nav ul li:hover .down
+{
+	border-right :1px solid #ad9463;
+	border-bottom:1px solid #ad9463;
+}
+.header2 .header2nav ul li:hover
+{
+	border-bottom: 2px solid #ad9463;
+	transition:width 10s;
+	color: #ad9463;
+}
+.down
+{
+	height:6px;
+	vertical-align: top;
+	width:6px;
+	display: inline-block;
+	/*background-color: red;*/
+	margin-top:26px;
+	margin-left:10px;
+	transform: rotate(45deg);
+	border-right :1px solid black;
+	border-bottom:1px solid black;
+}
+.galleryele
+{
+	height: 300px;
+	width: 320%;
+	background-color:#f1f1f1;
+	display:none;
+	margin-top: 2px;
+	border-radius:15px;
+}
+.gallery:hover .galleryele
+{
+	display: block;
+}
+.header2 .header2nav ul .gallery .galleryele ul .arrow
+{
+	display:none;
+	font-size:20px;
+	line-height:60px;
+	width:2%;
+	margin-right: 20px;
+	font-weight: bold;
+	vertical-align: top;
+}
+.header2 .header2nav ul .gallery .galleryele ul li
+{
+	font-size: 15px;
+	width:100%;
+	border:none;
+	vertical-align: top;
+	text-align: justify;
+	margin-left:20px;
+	display: inline-block;
+}
+.header2 .header2nav ul .gallery .galleryele ul li:hover
+{
+	transform: translateX(25px);
+	color: #ad9463;
+	transition: 0.25s;
+}
+.header2 .header2nav ul .gallery .galleryele ul li:hover .arrow
+{
+	display: inline-block;
+}
+.banner1
+{
+	height: 600px;
+	width: 100%;
+	background-image: url(images/room1.jpg);
+
+background-position:0px -100px;
+overflow: hidden;
+}
+.banner1_overlay{
+	background-color:#000000ad;
+	height: 600px;
+	width: 100%;
+	overflow: hidden;
+}
+.banner1 p
+{
+	font-family: pt;
+}
+.banner1_1
+{
+	height: 400px;
+	width: 30%;
+	margin-left: 10%;
+	margin-top: 100px;
+	vertical-align: top;
+	/*background-color: red;*/
+}
+.banner1 .banner1_1 button
+{
+	height: 50px;
+	width: 50%;
+	border-radius: 25px;
+	border:2px white solid;
+	font-size: 20px;
+	color: white;
+	background-color:transparent;
+	margin-top:40px;
+
+}
+.banner2
+{
+	height: 950px;
+	width: 100%;
+	/*background-color: red;*/
+}
+.banner2 p
+{
+	font-family: pt;
+}
+.banner2 button
+{
+
+	height: 50px;
+	width: 200px;
+	background-color: #ad9463;
+	border: none;
+	border-radius: 30px;
+	font-size: 20px;
+	color: white;
+	vertical-align: top;
+	margin-left:80%;
+	margin-top: -43px;
+}
+.bestroom
+{
+	height: 320px;
+	width: 30%;
+	vertical-align: top;
+	/*background-color: #3498db;*/
+	display: inline-block;
+	margin-left: 2%;
+
+}
+.banner2 .bestroom img
+{
+	height: 260px;
+	width: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.banner2 .bestroom p
+{
+	display: inline-block;
+	font-size: 23px;
+	vertical-align: top;
+	margin-top: 15px;
+}
+.ourservices
+{
+	height: 650px;
+	overflow: hidden;
+	width: 100%;
+	background-color: #ecf0f1;
+}
+.ourservices .os
+{
+	height: 400px;
+	width: 22%;
+	background-color: transparent;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 32px;
+	vertical-align:top;
+	border-radius: 15px;
+	border: 2px solid lightgrey;
+}
+.ourservices .os:hover
+{
+	background-color: white;
+	transition: 0.25s;
+}

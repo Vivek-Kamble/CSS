@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>animation</title>
+	<style type="text/css">
+		*{
+			margin: 0%;
+			padding: 0px;
+		}
+		.main
+		{
+			height: 600px;
+			width: 100%;
+			background-color: red;
+			/*overflow: hidden;*/
+		}
+		.roll
+		{
+			height: 1200px;
+			width: 200%;
+			background-color: green;
+			/*animation-name: slider;*/
+			animation-duration: 20s;
+			animation-delay: 2s;
+			animation-play-state: running;
+			animation-iteration-count: infinite;
+			/*overflow:hidden;*/
+		}
+		/*.roll img
+		{
+			width: 20%;
+			float: left;
+
+		}*/
+		
+		@keyframes slider
+		{
+			12.5%
+			{
+				margin-left: -100%;
+			}
+			25%
+			{
+				margin-left: -100%;
+			}
+			37.5%
+			{
+				margin-top: -600px;
+			}
+			50%
+			{
+				margin-top: -600px;
+			}
+			62.5%
+			{
+				margin-right: -100%;
+			}
+			75%
+			{
+				margin-right:  -100%;
+			}
+			87.5%
+			{
+				margin-bottom: -600px;
+			}
+			100%
+			{
+				margin-bottom: -600px;
+			}
+		}
+		p{
+			margin: 100px;
+			font-size: 80px;
+		}
+		.roll div
+		{
+			width: 50%;
+			float: left;
+			overflow: hidden;
+
+		}
+		.roll div img
+		{
+			height: 600px;
+			width: 100%;
+			overflow: hidden;	
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="roll">
+			<div><img src="1.jpg"></div>
+			<div><img src="2.jpg"></div>
+			<div><img src="3.jpg"></div>
+			<div><img src="4.jpg"></div>
+
+			<!-- <div class="image1">
+				<p>Image1</p>
+			</div>
+			<div class="image2">
+				<p>Image1</p>
+			</div>
+			<div class="image3">
+				<p>Image3</p>
+			</div>
+			<div class="image4"></div>
+			<div class="image5"></div> -->
+		</div>
+	</div>
+</body>
+</html>

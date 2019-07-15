@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animations</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        .slider
+        {
+            height: 500px;
+            width: 100%;
+            /* background-color: black */
+          
+            overflow: hidden;
+        }
+        .sliderChild{
+            height: 500px;
+            width: 100%;
+            /* background-color:blue; */
+            animation-name: slider;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-duration: 10s;
+        }
+        img{
+            float: left;
+        }
+        @keyframes slider{
+            12.5%{
+                margin-top: -500px;
+            }
+            25%{
+                margin-top: -500px;
+            }
+            37.5%{
+                margin-top: calc(-500*2px);
+            }
+            50%{
+                margin-top: calc(-500*2px);
+            }
+            62.5%{
+                margin-top: calc(-500*3px);
+            }
+            75%{
+                margin-top: calc(-500*3px);
+            }
+            87.5%{
+                margin-top: calc(-500*4px);
+            }
+            100%{
+                margin-top: calc(-500*4px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="slider">
+        <div class="sliderChild">
+            <img src="1.jpg" alt="">
+            <img src="2.jpg" alt="">
+            <img src="3.jpg" alt="">
+            <img src="4.jpg" alt="">
+            <img src="1.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*
+{
+	margin: 0px;
+}
+
+/*reusable*/
+
+
+.title
+	{
+		height: 50px;
+		width: 100%;
+		/*background-color: gray;*/
+		text-align: center;
+		line-height: 50px;
+		font-family: calibri;
+		font-size: 30px;
+		/*font-weight: bold;*/
+	}
+
+
+
+
+
+
+/*header*/
+
+
+	.header
+	{
+		height: 70px;
+		width: 100%;
+		/*background-color: red;*/
+	}
+
+
+	.logo
+	{
+		height: 70px;
+		width: 20%;
+		background-color: white;
+		margin-left: 10%;
+
+	}
+
+	.logo_img
+	{
+		margin-left: 20%;
+		margin-top: -5px;
+		overflow: hidden;
+
+	}
